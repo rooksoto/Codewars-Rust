@@ -4,6 +4,7 @@ mod kyu8;
 mod problem;
 
 use crate::kyu7::summing_a_numbers_digits::SummingANumbersDigits;
+use crate::kyu7::vowel_count::VowelCount;
 use crate::kyu8::count_of_positives_sum_of_negatives::CountOfPositivesSumOfNegatives;
 use crate::kyu8::invert_values::InvertValues;
 use crate::kyu8::make_upper_case::MakeUpperCase;
@@ -30,6 +31,7 @@ fn main() {
     print_problem_solved(InvertValues);
     // Kyu 7
     print_problem_solved(SummingANumbersDigits);
+    print_problem_solved(VowelCount);
 }
 
 fn print_problem_solved<P: Problem>(problem: P) {
