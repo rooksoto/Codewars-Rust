@@ -1,4 +1,5 @@
 pub mod count_of_positives_sum_of_negatives;
+pub mod invert_values;
 pub mod make_upper_case;
 pub mod multiplication_table_for_number;
 pub mod opposite_number;
