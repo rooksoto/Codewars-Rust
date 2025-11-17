@@ -3,6 +3,7 @@ mod kyu7;
 mod kyu8;
 mod problem;
 
+use crate::kyu7::bubblesort_once::BubblesortOnce;
 use crate::kyu7::summing_a_numbers_digits::SummingANumbersDigits;
 use crate::kyu7::vowel_count::VowelCount;
 use crate::kyu8::count_of_positives_sum_of_negatives::CountOfPositivesSumOfNegatives;
@@ -32,6 +33,7 @@ fn main() {
     // Kyu 7
     print_problem_solved(SummingANumbersDigits);
     print_problem_solved(VowelCount);
+    print_problem_solved(BubblesortOnce);
 }
 
 fn print_problem_solved<P: Problem>(problem: P) {
