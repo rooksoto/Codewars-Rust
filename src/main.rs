@@ -5,6 +5,7 @@ mod problem;
 
 use crate::kyu7::bubblesort_once::BubblesortOnce;
 use crate::kyu7::summing_a_numbers_digits::SummingANumbersDigits;
+use crate::kyu7::vaporcode::Vaporcode;
 use crate::kyu7::vowel_count::VowelCount;
 use crate::kyu8::count_of_positives_sum_of_negatives::CountOfPositivesSumOfNegatives;
 use crate::kyu8::invert_values::InvertValues;
@@ -34,6 +35,7 @@ fn main() {
     print_problem_solved(SummingANumbersDigits);
     print_problem_solved(VowelCount);
     print_problem_solved(BubblesortOnce);
+    print_problem_solved(Vaporcode);
 }
 
 fn print_problem_solved<P: Problem>(problem: P) {
