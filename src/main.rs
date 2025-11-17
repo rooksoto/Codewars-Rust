@@ -2,6 +2,7 @@ mod kyu;
 mod kyu8;
 mod problem;
 
+use crate::kyu8::count_of_positives_sum_of_negatives::CountOfPositivesSumOfNegatives;
 use crate::kyu8::make_upper_case::MakeUpperCase;
 use crate::kyu8::multiplication_table_for_number::MultiplicationTableForNumber;
 use crate::kyu8::opposite_number::OppositeNumber;
@@ -21,6 +22,7 @@ fn main() {
     print_problem_solved(QuarterOfTheYear);
     print_problem_solved(OppositeNumber);
     print_problem_solved(SumOfPositive);
+    print_problem_solved(CountOfPositivesSumOfNegatives);
 }
 
 fn print_problem_solved<P: Problem>(problem: P) {
