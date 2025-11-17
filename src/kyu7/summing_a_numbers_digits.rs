@@ -5,7 +5,8 @@ pub struct SummingANumbersDigits;
 
 impl SummingANumbersDigits {
     fn sum_digits(number: i32) -> i32 {
-        number.abs()
+        number
+            .abs()
             .to_string()
             .chars()
             .filter_map(|c| c.to_digit(10))
