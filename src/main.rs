@@ -7,6 +7,7 @@ use crate::kyu8::multiplication_table_for_number::MultiplicationTableForNumber;
 use crate::kyu8::opposite_number::OppositeNumber;
 use crate::kyu8::plural::Plural;
 use crate::kyu8::quarter_of_the_year::QuarterOfTheYear;
+use crate::kyu8::sum_of_positive::SumOfPositive;
 use crate::kyu8::the_if_function::TheIfFunction;
 use crate::problem::Problem;
 
@@ -19,6 +20,7 @@ fn main() {
     print_problem_solved(MultiplicationTableForNumber);
     print_problem_solved(QuarterOfTheYear);
     print_problem_solved(OppositeNumber);
+    print_problem_solved(SumOfPositive);
 }
 
 fn print_problem_solved<P: Problem>(problem: P) {
